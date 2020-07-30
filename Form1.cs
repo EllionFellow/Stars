@@ -79,6 +79,7 @@ namespace Stars
             float x = Map(star.X/star.Z,0,1,0,pictureBox1.Width)+ pictureBox1.Width/2;
             float y = Map(star.Y / star.Z, 0, 1, 0, pictureBox1.Height) + pictureBox1.Height / 2;
             graphics.FillEllipse(Brushes.White,x,y,starSize,starSize);
+            //sss//
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
